@@ -45,7 +45,10 @@ class Product {
                         }return true
                     })
                 }
-            }else if(microCmd.length == 2){
+            }
+            
+            
+            else if(microCmd.length == 2){
                 const pos = microCmd[1].search(/[0-9]/);
                 let sim = microCmd[1].slice(0 , pos)
                 let num = +microCmd[1].slice(pos , microCmd[1].length)
@@ -57,20 +60,14 @@ class Product {
                     }return true
                 })
             }
+
+            else return null
+   
         }
         
         return copArray
     }
 }
-
-
-// let g = new Product()
-// g.Add('fd vnukfdki',2,8,'rergergfdy abc')
-// g.Add('fd gavnukki',2,6,'rergergfdy hth')
-// g.Add('dvnukfdki',8,8,'rergergfdy hth')
-// g.Add('fd gavnukki',2,5,'rergergfdy abc')
-
-// console.log(g.Search('name-contains-fd&price-=2&quantity->5&description-ends-abc'))
 
 
 
