@@ -65,13 +65,12 @@ class Product {
 
 
 // let g = new Product()
-// g.Add('gavnukfdki',2,6,'rergergfdy hth')
-// g.Add('fdgavnukki',3,6,'rergergfdy hth')
-// g.Add('gavnukfdki',8,6,'rergergfdy hth')
-// g.Add('fdgavnukki',10,5,'rergergfdy hth')
+// g.Add('fd vnukfdki',2,8,'rergergfdy abc')
+// g.Add('fd gavnukki',2,6,'rergergfdy hth')
+// g.Add('dvnukfdki',8,8,'rergergfdy hth')
+// g.Add('fd gavnukki',2,5,'rergergfdy abc')
 
-// g.Search('name-starts-fd&quantity-=6')
-
+// console.log(g.Search('name-contains-fd&price-=2&quantity->5&description-ends-abc'))
 
 
 
